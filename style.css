@@ -1,3 +1,46 @@
 img{
     height: 200px;
 }
+
+
+.background-color-lightblue {
+    background-color: rgb(26, 188, 156);
+}
+
+.color-text-white {
+    color: white;
+}
+
+/* style - nav */
+.sfondo-nav{
+    background-color: rgb(44, 62, 80);
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: white;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+
+/* style - jumbotron */
+.padding-jumbotron{
+    padding-top: 140px;
+    padding-bottom: 90px;
+}
+
+@media (min-width: 992px){
+
+    h1 {
+        font-size: 60px;
+    }
+}
