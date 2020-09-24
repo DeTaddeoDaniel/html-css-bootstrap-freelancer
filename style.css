@@ -72,6 +72,28 @@ img{
 /* cards - portafoglio */
 .cards:hover{
     background-color: rgb(26, 188, 156);
-    opacity: 0.5s;
-    transition: opacity 0.5s , background-color 0.5s;
+}
+
+.cards:hover{
+    opacity: 0.2;
+    transition: opacity 0.5s;
+}
+
+/* form */
+.form-control{
+    border: 0;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: lightgray;
+}
+
+.form-group .btn-default {
+    background-color: rgb(26, 188, 156);
+    color: white;
+    border-color:transparent;
 }
