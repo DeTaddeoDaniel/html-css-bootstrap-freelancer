@@ -2,18 +2,28 @@ img{
     height: 200px;
 }
 
+.background-nav {
+    background-color: #2d3e50;
+}
 
-.background-color-lightblue {
+.text-primary {
+    color:  white;
+}
+
+.text-secondary {
+    color:  #2d3e50;
+}
+
+.background-primary {
     background-color: rgb(26, 188, 156);
 }
 
-.color-text-blue {
-    color: #2d3e50;
+.background-secondary {
+    background-color: white;
 }
 
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #148f77;
-}
+
+
 
 /* decorazione line star */
 .line-decoration{
@@ -27,17 +37,10 @@ img{
     width: 80px;
     display: inline-block;
     border-radius: 2.5px;
-}
-
-.background-white{
     background-color: white;
-    color: white
 }
 
-.background-lightblue{
-    background-color: #2d3e50;
-    color: #2d3e50
-}
+
 
 .span-icon{
     display: inline-block;
