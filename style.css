@@ -22,9 +22,6 @@ img{
     background-color: white;
 }
 
-
-
-
 /* decorazione line star */
 .line-decoration{
     height: 40px;
@@ -40,8 +37,6 @@ img{
     background-color: white;
 }
 
-
-
 .span-icon{
     display: inline-block;
     font-size: 20px;
@@ -49,6 +44,9 @@ img{
     padding-right: 7px;
 }
 
+.background-decoration {
+    background-color: #2d3e50;
+}
 
 /* style - nav */
 .sfondo-nav{
@@ -81,11 +79,6 @@ img{
 
 
 /* style - jumbotron */
-.padding-jumbotron{
-    padding-top: 140px;
-    padding-bottom: 90px;
-}
-
 @media (min-width: 992px){
 
     h1 {
@@ -94,16 +87,17 @@ img{
 }
 
 /* style */
-.padding-top-15{
+.padding-15{
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.padding-top-bootom-70{
+.padding-70{
     padding-top: 70px;
     padding-bottom: 70px;
 }
 
-.download{
+.style-btn-white{
     background-color: transparent;
     color: white;
 }
