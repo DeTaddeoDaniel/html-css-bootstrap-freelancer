@@ -157,29 +157,27 @@ img{
      height: 217px;
      background-color: rgb(26, 188, 156);
      opacity: 0;
-     transition: opacity 0.3s;
+     transition: opacity 0.5s;
  }
 
 .content .text{
     height: 100%;
-    vertical-align: middle;
 }
 
 .content .text i{
-    color: white;
     position: relative;
     top:50%;
+    transform: translateY(-50%);
     font-size: 50px;
     color: white;
-    transform: translateY(-50%);
 }
 
 .content .content img{
-
+    transition: opacity 0.5s;
 }
 
 .content:hover{
-    opacity: 1;
+    opacity: 0.7;
 }
 
 /* form style */
