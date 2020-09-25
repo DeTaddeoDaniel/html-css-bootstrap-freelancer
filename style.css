@@ -125,20 +125,43 @@ img{
     color: white;
 }
 
-/* cards - portafoglio */
-/* .card img{
-    height: 200px;
-    max-height: 200px;
-} */
+ /* cards - portafoglio  */
+ .card{
+ }
 
-.cards:hover{
+.card-content{
+    position: relative;
+}
+
+.card-top{
+    position: absolute;
     background-color: rgb(26, 188, 156);
+    opacity: 0;
+    /* dimensioni card */
+    width: 300px;
+    height: 217px;
+    /* position absolute*/
+    right: 22.5px;
 }
 
-.cards:hover{
-    opacity: 0.2;
-    transition: opacity 0.5s;
+.card-top-sign {
+    position: absolute;
+    font-size: 70px;
+    opacity: 1;
+    /* position  absolute */
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
+
+.card-top-sign i{
+    color: white;
+}
+
+.card-content:hover .card-top{
+    opacity: 0.8;
+}
+
+
 
 /* form style */
 .form-control{
