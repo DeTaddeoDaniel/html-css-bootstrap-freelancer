@@ -11,6 +11,42 @@ img{
     color: white;
 }
 
+.color-text-blue {
+    color: #2d3e50;
+}
+
+/* decorazione line star */
+.line-decoration{
+    height: 40px;
+
+}
+
+.line{
+    margin-bottom: 4.25px;
+    height: 3.5px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 2.5px;
+}
+
+.background-white{
+    background-color: white;
+    color: white
+}
+
+.background-lightblue{
+    background-color: #2d3e50;
+    color: #2d3e50
+}
+
+.span-icon{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+
 /* style - nav */
 .sfondo-nav{
     background-color: rgb(44, 62, 80);
