@@ -30,29 +30,38 @@ img{
 }
 
 /* decorazione line star */
-.line-decoration{
-    height: 40px;
-
+.separator i{
+    font-size: 25px;
+    vertical-align: middle;
+    margin: 0 8px;
 }
 
-.line{
-    margin-bottom: 4.25px;
-    height: 3.5px;
+.separator::after,
+.separator::before{
+    content: "";
     width: 80px;
-    display: inline-block;
-    border-radius: 2.5px;
+    height: 3px;
     background-color: white;
-}
-
-.span-icon{
     display: inline-block;
-    font-size: 20px;
-    padding-left: 7px;
-    padding-right: 7px;
+    border-radius: 1.5px;
+    vertical-align: middle;
 }
 
-.background-decoration {
+.separator-dark i{
+    font-size: 25px;
+    vertical-align: middle;
+    margin: 0 8px;
+}
+
+.separator-dark::after,
+.separator-dark::before{
+    content: "";
+    width: 80px;
+    height: 3px;
     background-color: #2d3e50;
+    display: inline-block;
+    border-radius: 1.5px;
+    vertical-align: middle;
 }
 
 /* padding e margin extra */
