@@ -142,6 +142,7 @@ img{
  .card{
      position: relative;
      height: auto; /* rensonsive: dimensione*/
+
  }
 
  .content{
@@ -154,6 +155,7 @@ img{
      background-color: rgb(26, 188, 156);
      opacity: 0;
      transition: opacity 0.5s;
+     border-radius: 20px;
  }
 
 .content .text{
@@ -168,8 +170,8 @@ img{
     color: white;
 }
 
-.content .content img{
-    transition: opacity 0.5s;
+.card img{
+    border-radius: 20px;
 }
 
 .content:hover{
