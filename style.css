@@ -1,5 +1,6 @@
 img{
-    height: 200px;
+    width: : 100%;
+    max-width: 200px;
 }
 
 .background-nav {
@@ -154,7 +155,6 @@ img{
 .footer-bottom{
     background-color: #1a252f;
 }
-
 
 .social{
     padding: 10px;
