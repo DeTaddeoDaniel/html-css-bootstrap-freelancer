@@ -9,6 +9,7 @@ img{
 }
 
 
+
 .text-primary {
     color:  white;
 }
@@ -29,6 +30,10 @@ img{
     background-color: #2d3e50;
 }
 
+/* forzature */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: RGB(19, 143, 119);
+}
 /* decorazione line star */
 .separator i{
     font-size: 25px;
