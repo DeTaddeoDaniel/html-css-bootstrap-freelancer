@@ -3,6 +3,10 @@ img{
     width: 300px;
 }
 
+p{
+    font-size: 19px;
+}
+
 /* colori bootstrap change*/
 .text-primary {
     color:  white;
