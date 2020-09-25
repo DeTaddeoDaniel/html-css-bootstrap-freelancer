@@ -86,7 +86,7 @@ img{
     }
 }
 
-/* style */
+/* padding extra */
 .padding-15{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -97,12 +97,19 @@ img{
     padding-bottom: 70px;
 }
 
+/* padding  */
+
 .style-btn-white{
     background-color: transparent;
     color: white;
 }
 
 /* cards - portafoglio */
+/* .card img{
+    height: 200px;
+    max-height: 200px;
+} */
+
 .cards:hover{
     background-color: rgb(26, 188, 156);
 }
@@ -112,12 +119,16 @@ img{
     transition: opacity 0.5s;
 }
 
-/* form */
+/* form style */
 .form-control{
     border: 0;
     border-bottom: 1px solid lightgray;
     border-radius: 0;
     box-shadow: none;
+}
+
+.form-group label{
+    font-weight: 500;
 }
 
 .form-control:focus{
@@ -132,16 +143,18 @@ img{
 }
 
 /* footer */
+[class="footer"]{
+    color: white;
+}
+
 .footer-top{
-    padding: 15px;
     background-color: #2c3e50;
 }
 
 .footer-bottom{
-    padding: 15px;
     background-color: #1a252f;
-    font-size: 10px;
 }
+
 
 .social{
     padding: 10px;
@@ -150,11 +163,11 @@ img{
 .social i{
     font-size: 16px;
     border-radius: 100%;
+    color: white;
     border: 1px solid white;
     padding: 5px;
     margin-left: 4px;
     margin-right: 4px;
-    color: white;
 }
 
 .social i:hover{
