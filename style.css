@@ -1,5 +1,4 @@
 img{
-    width: : 100%;
     max-width: 200px;
 }
 
@@ -87,10 +86,20 @@ img{
     }
 }
 
-/* padding extra */
+/* padding e margin extra */
+.padding-5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
 .padding-15{
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+.padding-23{
+    padding-top: 23px;
+    padding-bottom: 13px;
 }
 
 .padding-70{
@@ -98,7 +107,12 @@ img{
     padding-bottom: 70px;
 }
 
-/* padding  */
+.padding-75{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* style button  */
 
 .style-btn-white{
     background-color: transparent;
