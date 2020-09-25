@@ -1,10 +1,6 @@
 img{
     max-width: 100%;
-    width: 400px;
-}
-
-.background-nav {
-    background-color: #2d3e50;
+    width: 300px;
 }
 
 .text-primary {
@@ -21,6 +17,10 @@ img{
 
 .background-secondary {
     background-color: white;
+}
+
+.background-nav {
+    background-color: #2d3e50;
 }
 
 /* decorazione line star */
@@ -49,6 +49,36 @@ img{
     background-color: #2d3e50;
 }
 
+/* padding e margin extra */
+.padding-5{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.padding-15{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.padding-23{
+    padding-top: 23px;
+    padding-bottom: 13px;
+}
+
+.padding-70{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.padding-75{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.padding-nav-fixed{
+    padding-top: calc(70px + 50px);
+    padding-bottom: 70px;
+}
 /* style - nav */
 .sfondo-nav{
     background-color: rgb(44, 62, 80);
@@ -87,31 +117,6 @@ img{
     }
 }
 
-/* padding e margin extra */
-.padding-5{
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
-.padding-15{
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-.padding-23{
-    padding-top: 23px;
-    padding-bottom: 13px;
-}
-
-.padding-70{
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-.padding-75{
-    padding-top: 75px;
-    padding-bottom: 75px;
-}
 
 /* style button  */
 
