@@ -7,12 +7,12 @@ img{
     background-color: rgb(26, 188, 156);
 }
 
-.color-text-white {
-    color: white;
-}
-
 .color-text-blue {
     color: #2d3e50;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #148f77;
 }
 
 /* decorazione line star */
