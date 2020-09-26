@@ -3,9 +3,6 @@ img{
     width: 300px;
 }
 
-p{
-    font-size: 19px;
-}
 
 /* colori bootstrap change*/
 .text-primary {
@@ -28,10 +25,7 @@ p{
     background-color: #2d3e50;
 }
 
-/* forzature */
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: RGB(19, 143, 119);
-}
+
 /* decorazione line star */
 .separator i{
     font-size: 25px;
@@ -68,6 +62,11 @@ p{
 }
 
 /* padding e margin extra */
+.padding-nav-fixed{
+    padding-top: calc(70px + 50px);
+    padding-bottom: 70px;
+}
+
 .padding-5{
     padding-top: 5px;
     padding-bottom: 5px;
@@ -93,10 +92,6 @@ p{
     padding-bottom: 75px;
 }
 
-.padding-nav-fixed{
-    padding-top: calc(70px + 50px);
-    padding-bottom: 70px;
-}
 /* style - nav */
 .sfondo-nav{
     background-color: rgb(44, 62, 80);
@@ -126,15 +121,31 @@ p{
     color: rgb(26, 188, 156);
 }
 
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: RGB(19, 143, 119);
+}
 
 /* style - jumbotron */
-@media (min-width: 992px){
+
+p{
+    font-size: 20px;
+}
+
+@media (min-width: 768px){
 
     h1 {
-        font-size: 60px;
+        font-size: 45px;
+    }
+    p{
+        font-size: 20px;
     }
 }
 
+@media (max-width:300px) {
+    .navbar-brand{
+        font-size: 15px;
+    }
+}
 
 /* style button  */
 .style-btn-white{
