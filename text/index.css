@@ -1,0 +1,14 @@
+body{
+    background-color: purple;
+}
+
+.panel{
+    height: 100%;
+    position: absolute;
+}
+
+.panel-body{
+    width: 80%;
+    height: 80%;
+    background-color: orange;
+}
